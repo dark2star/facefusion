@@ -33,8 +33,6 @@ def render() -> gradio.Blocks:
 		with gradio.Row():
 			with gradio.Column(scale = 2):
 				with gradio.Blocks():
-					about.render()
-				with gradio.Blocks():
 					frame_processors.render()
 				with gradio.Blocks():
 					frame_processors_options.render()
